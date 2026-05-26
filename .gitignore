@@ -3,6 +3,7 @@
 ./*.egg-info
 .venv
 .env
+venv
 __pycache__
 *.pyc
 wireguard-gui.code-workspace
