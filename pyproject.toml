@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wireguard-gui"
+version = "0.1.0"
+description = "A simple, modern WireGuard GUI."
+authors = [{ name = "Miles Hilliard", email = "miles@mileshilliard.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+]
+dependencies = [
+    "customtkinter",
+    "darkdetect",
+]
+
+[project.scripts]
+wireguard-gui = "wireguard_gui.__main__:main"
