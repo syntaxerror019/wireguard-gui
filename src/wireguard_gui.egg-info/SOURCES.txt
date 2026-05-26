@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/wireguard_gui/__init__.py
+src/wireguard_gui/__main__.py
+src/wireguard_gui/app.py
+src/wireguard_gui/wg_manager.py
+src/wireguard_gui.egg-info/PKG-INFO
+src/wireguard_gui.egg-info/SOURCES.txt
+src/wireguard_gui.egg-info/dependency_links.txt
+src/wireguard_gui.egg-info/entry_points.txt
+src/wireguard_gui.egg-info/requires.txt
+src/wireguard_gui.egg-info/top_level.txt

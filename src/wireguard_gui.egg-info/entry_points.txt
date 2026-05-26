@@ -1,0 +1,2 @@
+[console_scripts]
+wireguard-gui = wireguard_gui.__main__:main

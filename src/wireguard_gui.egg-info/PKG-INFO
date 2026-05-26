@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: wireguard-gui
+Version: 0.1.0
+Summary: A simple, modern WireGuard GUI.
+Author-email: Miles Hilliard <miles@mileshilliard.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: customtkinter
+Requires-Dist: darkdetect
+
+# Simple WireGuard GUI
+
+A modern, easy-to-use desktop GUI for WireGuard, built with Python and CustomTkinter.
+
+## Installation
+
+```bash
+pip install .
+```
+
+## Usage
+
+```bash
+wireguard-gui
+```
